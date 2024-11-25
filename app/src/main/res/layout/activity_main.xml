@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0F7FA"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="Application Development!."
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnChangeText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Change Text"
+        android:backgroundTint="#E91E63"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnChangeHeight"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Change Height"
+        android:backgroundTint="#42A5F5"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCenterText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Center Text"
+        android:backgroundTint="#66BB6A"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
